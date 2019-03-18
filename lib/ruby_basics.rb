@@ -9,10 +9,12 @@ end
 division(35,7) # Should return 5
 
 # Assign input to variable 
-def assign_variable(value)
+def assign_variable(value="Sam")
   new_variable = value
-  
+  puts "The name is #{new_variable}"
+  return new_variable
 end
+assign_variable("Stephen")
 
 def argue
   
