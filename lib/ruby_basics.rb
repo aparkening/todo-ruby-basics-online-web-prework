@@ -1,13 +1,14 @@
 require 'pry'
 
+# Divide first number by second
 def division(num1, num2)
  result = num1.to_f / num2.to_f
  puts "#{num1} divided by #{num2} is #{result}"
  return result
 end
-
 division(35,7) # Should return 5
 
+# 
 def assign_variable(value)
   assign_variable(value)
 end
