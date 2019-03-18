@@ -24,7 +24,7 @@ end
 argue("What did I have for breakfast?")
 
 # Show greeting and name; require both
-def greeting(phrase,name)
+def greeting(phrase="My phrase with",name="Phillipa")
   phrase = phrase.to_s 
   name = name.to_s
   puts "#{phrase} #{name}"
