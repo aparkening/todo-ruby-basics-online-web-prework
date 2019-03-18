@@ -23,8 +23,11 @@ def argue(phrase="The world is large")
 end
 argue("What did I have for breakfast?")
 
-def greeting
-
+# Show greeting and name
+def greeting(phrase="I am",name="Bleep Blop")
+  statement = phrase + 
+  puts "#{phrase} #{name}"
+  return 
 end
 
 def return_a_value
