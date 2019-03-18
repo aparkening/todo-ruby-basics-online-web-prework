@@ -1,9 +1,9 @@
 require 'pry'
 
 def division(num1, num2)
- divide = num1.to_f / num2.to_f
- puts 
- 
+ result = num1.to_f / num2.to_f
+ puts "#{num1} divided by #{num2} is #{result}"
+ return result
 end
 
 def assign_variable(value)
