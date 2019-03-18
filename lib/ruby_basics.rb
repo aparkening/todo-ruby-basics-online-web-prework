@@ -35,8 +35,10 @@ greeting("Mister",5)
 # Return the phrase "Nice"
 def return_a_value
   phrase = "Nice"
-
+  puts phrase
+  return phrase
 end
+return_a_value
 
 def last_evaluated_value
 binding.pry
