@@ -28,6 +28,7 @@ def greeting(phrase,name)
   phrase = phrase.to_s 
   name = name.to_s
   binding.pry
+  return phrase + name
 end
 
 def return_a_value
