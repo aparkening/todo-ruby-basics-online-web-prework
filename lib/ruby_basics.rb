@@ -23,13 +23,10 @@ def argue(phrase="The world is large")
 end
 argue("What did I have for breakfast?")
 
-# Show greeting and name
-def greeting(phrase="I am",name="Bleep Blop")
+# Show greeting and name; require both
+def greeting(phrase,name)
   phrase = phrase.to_s 
   name = name.to_s
-  
-  puts "#{phrase} #{name}"
-  return 
 end
 
 def return_a_value
