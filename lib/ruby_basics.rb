@@ -17,9 +17,11 @@ end
 assign_variable("Stephen")
 
 # Return argument
-def argue
-  
+def argue(phrase="The world is large")
+  puts "#{phrase}"
+  return phrase
 end
+argue("What did I have for breakfast?")
 
 def greeting
 
