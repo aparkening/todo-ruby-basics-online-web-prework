@@ -27,6 +27,7 @@ argue("What did I have for breakfast?")
 def greeting(phrase,name)
   phrase = phrase.to_s 
   name = name.to_s
+  binding.pry
 end
 
 def return_a_value
