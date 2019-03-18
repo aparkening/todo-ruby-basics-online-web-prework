@@ -1,4 +1,4 @@
-require 'pry'
+require 'pry' #allow use of Pry
 
 # Divide first number by second
 def division(num1=6, num2=2)
