@@ -8,9 +8,10 @@ def division(num1=6, num2=2)
 end
 division(35,7) # Should return 5
 
-# 
+# Assign input to variable 
 def assign_variable(value)
-  assign_variable(value)
+  new_variable = value
+  
 end
 
 def argue
