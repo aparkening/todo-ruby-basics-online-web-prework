@@ -2,7 +2,7 @@ require 'pry'
 
 def division(num1, num2)
  divide = num1.to_f / num2.to_f
- binding.pry
+ binding.pryr
  
 end
 
