@@ -40,12 +40,14 @@ def return_a_value
 end
 return_a_value
 
+# Return the last evaluated value ("expert")
 def last_evaluated_value
-  value = "Nice"
+  value = "expert"
   puts value
   return value
 end
 
+# Return topping; default to cheese
 def pizza_party(topping="cheese")
   puts topping
   return topping
