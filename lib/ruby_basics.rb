@@ -18,7 +18,7 @@ assign_variable("Stephen")
 
 # Return argument
 def argue(phrase="The world is large")
-  puts "#{phrase}"
+  puts phrase
   return phrase
 end
 argue("What did I have for breakfast?")
@@ -27,12 +27,13 @@ argue("What did I have for breakfast?")
 def greeting(phrase,name)
   phrase = phrase.to_s 
   name = name.to_s
-  binding.pry
+  puts "#{phrase} #{name}"
   return phrase + name
 end
 greeting("Mister",5)
 
 def return_a_value
+  binding.pry
 
 end
 
