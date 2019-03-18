@@ -41,9 +41,12 @@ end
 return_a_value
 
 def last_evaluated_value
-binding.pry
+  value = "Nice"
+  puts value
+  return value
 end
 
-def pizza_party
-
+def pizza_party(topping="cheese")
+  puts topping
+  return topping
 end
