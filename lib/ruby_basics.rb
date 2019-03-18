@@ -1,7 +1,7 @@
 require 'pry'
 
 # Divide first number by second
-def division(num1, num2)
+def division(num1=6, num2=2)
  result = num1.to_f / num2.to_f
  puts "#{num1} divided by #{num2} is #{result}"
  return result
