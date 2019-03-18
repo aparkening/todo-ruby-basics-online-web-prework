@@ -6,6 +6,8 @@ def division(num1, num2)
  return result
 end
 
+division(42, 6)
+
 def assign_variable(value)
   
 end
