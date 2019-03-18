@@ -25,7 +25,9 @@ argue("What did I have for breakfast?")
 
 # Show greeting and name
 def greeting(phrase="I am",name="Bleep Blop")
-  statement = phrase + 
+  phrase = phrase.to_s 
+  name = name.to_s
+  
   puts "#{phrase} #{name}"
   return 
 end
