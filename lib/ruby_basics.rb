@@ -1,7 +1,7 @@
 require 'pry'
 
 def division(num1, num2)
- divide = division(num1,num2))
+ divide = num1,num2
  binding.pry
  
 end
