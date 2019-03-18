@@ -30,7 +30,7 @@ def greeting(phrase,name)
   binding.pry
   return phrase + name
 end
-greeting(Mister,5)
+greeting("Mister",5)
 
 def return_a_value
 
